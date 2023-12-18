@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.0.13:3306/xmall4
+    username: pmguser
+    password: pmgk1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+mybatis:
+  mapper-locations:
+  - classpath:mapper/**/*.xml
